@@ -1,0 +1,1 @@
+export const openapi = { openapi: '3.1.0', info: { title: 'Price Comparator API', version: '0.1.0' }, paths: { '/compare/shipping': { post: { summary: 'Compare parcel shipping quotes', responses: { '200': { description: 'Quotes' } } } } } };
